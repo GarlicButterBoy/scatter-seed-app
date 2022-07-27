@@ -1,0 +1,27 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "target": "es2017",
+    "module": "commonjs",
+    "jsx": "react-native",
+    "lib": ["es6", "esnext.asynciterable", "es2017"],
+    "strict": true,
+    "pretty": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "removeComments": true,
+    "resolveJsonModule": true,
+    "allowUnreachableCode": false
+  },
+  "include": ["src", "babel.config.js"],
+  "exclude": ["node_modules"]
+}
